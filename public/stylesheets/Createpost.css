@@ -62,7 +62,7 @@
 }
 input{
     height: 6vh;
-    width: 33vw;
+    width: 32.5vw;
     margin-left: 5vh;
     border-radius: 10px;
     text-align: center;
@@ -71,7 +71,7 @@ input{
 }
 #file{
     height:5vh;
-    width: 19vh;
+    width: 18.2vh;
 }
 #submit{
     height: 7vh;

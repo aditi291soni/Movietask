@@ -34,13 +34,13 @@
                 </div>
                 <div id="createpost">
                     <h2>Add Movie</h2>
-                        <input type="text"  name="heading"   placeholder="Heading"> <br>
+                        <input type="text" value="<%=data.heading%>"  name="heading"   placeholder="Movie name"> <br>
          
-                        <input type="text"  name="description"   placeholder="Add summary"> <br>
+                        <input type="text" value="<%=data.description%>"  name="description"   placeholder="Add summary"> <br>
                     <!-- <textarea name="" id="description"  name="description"   placeholder="Add summary"></textarea> cols="30" rows="10"></textarea> -->
                                       
-                        <input type="text" name="category" placeholder="Category"> <br>
-                        <input type="file" name="image"   id="file"> <br>
+                        <input type="text" value="<%=data.category%>" name="category" placeholder="Category"> <br>
+                        <input type="file" name="image"  required id="file"> <br>
                         <input type="submit" id="submit">
                   </div>
             </div>

@@ -31,7 +31,7 @@ router.get('/', function(req, res, next) {
   
   
 });
-router.get('/createpost', function(req, res, next) {
+router.get('/createpost',function(req, res, next) {
   res.render('createpost');
 });
 
@@ -47,7 +47,8 @@ router.post('/create',upload.single('image'),isLoggedIn, function(req, res, next
 
     res.redirect('/');
   })
-  
+
+
 });
 router.get('/post/:id', function(req, res, next) {
   userModel.findOne({

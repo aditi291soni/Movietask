@@ -86,6 +86,7 @@ img{
     padding: 30px ;
     font-size: 30px;
     line-height: 40px;
+    word-wrap: break-word;
 
 }
 #text h4{
@@ -141,7 +142,7 @@ input{
 }
 #file{
     height:5vh;
-    width: 19vh;
+    width: 18.2vh;
 }
 #submit{
     height: 7vh;

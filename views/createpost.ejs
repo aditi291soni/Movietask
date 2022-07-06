@@ -22,12 +22,12 @@
           <div id="createpost">
             <h2>Add Movie</h2>
             <form action="/create" enctype="multipart/form-data" method="post">
-                <input type="text"  name="heading"   placeholder="Heading"> <br>
+                <input type="text" required name="heading"   placeholder="Movie name"> <br>
  
-                <input type="text"  name="description"   placeholder="Add summary"> <br>
+                <input type="text" required name="description"   placeholder="Add summary"> <br>
                               
-                <input type="text" name="category" placeholder="Category"> <br>
-                <input type="file"  name="image"   id="file"> <br>
+                <input type="text" name="category"  placeholder="Category"> <br>
+                <input type="file"  name="image" required  id="file"> <br>
                 <input type="submit" id="submit">
             </form>
           </div>
