@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylesheets/Createpost.css">
+    <title>Create Post</title>
+</head>
+<body>
+    
+    <div id="main">
+        <div id="nav">
+            <div id="logo"></div>
+      
+            <a href="/">Home</a>
+            <a href="">Popular</a>
+            <input id="search" placeholder="Search for Movie" type="text">
+            <a href="/logout">Log out</a>
+            <a href="/signin">Sign In</a>
+          </div>
+          <div id="createpost">
+            <h2>Add Movie</h2>
+            <form action="/create" enctype="multipart/form-data" method="post">
+                <input type="text"  name="heading"   placeholder="Heading"> <br>
+ 
+                <input type="text"  name="description"   placeholder="Add summary"> <br>
+                              
+                <input type="text" name="category" placeholder="Category"> <br>
+                <input type="file"  name="image"   id="file"> <br>
+                <input type="submit" id="submit">
+            </form>
+          </div>
+    </div>
+    
+</body>
+</html>

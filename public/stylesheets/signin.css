@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    /* background-color: #F0F2F5; */
+  
+  }
+  #main{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(44, 43, 43);
+  }
+  #loginbox{
+    height: 55vh;
+    width: 25vw;
+    background-color: #FFFFFF;
+    position: absolute;
+    top:20%;
+    right: 20%;
+    border-radius: 15px;
+    box-shadow: 5px solid black;
+  }
+  input{
+    height: 7vh;
+    width: 22vw;
+    background-color: white;
+    position: absolute;
+    margin: 30px 30px 30px 30px;
+    border-radius: 7px;
+    padding: 7px 10px;
+    font-size: 25px;
+  
+  }
+  #username{
+    top:5%;
+  }
+  
+  #password{
+    top:23%;
+  }
+  #login{
+    top:42%;
+    color: white;
+    background-color: #1877F2;
+  }
+  #fp{
+    color:#1877F2 ;
+    position: absolute;
+    margin: 30px 30px 30px 30px;
+    background-color: white;
+    font-size: 24px;
+    top:58%;
+    text-decoration: none;
+    left:24%;
+  
+  }
+  hr{
+    top:74%;
+    width: 100%;
+    position: absolute;
+  }
+  #createaccount{
+    
+    height: 7vh;
+    width: 12vw;
+    background-color: #36A420 ;
+    position: absolute;
+    margin: 50px 50px 50px 50px;
+    border-radius: 7px;
+    padding: 30px 60px;
+    color: white;
+    font-size: 25px;
+    top:70%;
+    left:18%;
+  }
+  
+  #register{
+    position: absolute;
+    background-color: #00000088;
+    height: 100vh;
+    width: 100vw;
+    display: none;
+  }
+  #regmodel{
+  height: 74vh;
+  width: 30vw;
+  background-color: white;
+  position: absolute;
+  box-shadow: 20px 20px solid black;
+  left: 35%;
+  top:15%;
+  border-radius: 6px;
+  
+  }
+  #sign{
+  padding:30px;
+  }
+  #text{
+  top:9%;
+  padding-left: 30px;
+  position: absolute;
+  }
+  #signupline{
+    position: absolute;
+    top:15%;
+  }
+  #uname{
+    top:30%;
+    width: 92%;
+  }
+  #pswd{
+    top:43%;
+    width: 92%;
+  }
+  #fname{
+    width: 45%;
+  }
+  #sname{
+    width: 45%;
+    left:47%;
+  }
+  #dobs{
+    position: absolute;
+    padding-left: 33px;
+    top:58%;
+  }
+  #dob{
+    width: 92%;
+    top:57%;
+  }
+  #tc{
+    font-size: 18px;
+    
+    position: absolute;
+    padding-left: 33px;
+    top:72%;
+    
+  }
+  #sigup{
+    
+    height: 4.5vh;
+    width: 12vw;
+    background-color: #36A420 ;
+    position: absolute;
+    margin: 50px 50px 50px 50px;
+    border-radius: 7px;
+    padding: 10px 89px;
+    color: white;
+    font-size: 25px;
+    top:80%;
+    left:19%;
+    /* outline: none; */
+  }
+  .ri-close-line{
+    position: absolute;
+    color: white;
+    top:-4%;
+    left:95%;
+    font-size: 70px;
+  }
+  

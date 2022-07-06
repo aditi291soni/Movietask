@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>clone</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="../stylesheets/signin.css">
+  <style>
+    #mtext{
+        height: 35%;
+        width: 30%;
+        /* background-color: aqua; */
+        position: absolute;
+        top:30%;
+        left:10%;
+        color: white;
+    }
+   #mtext h2{
+        font-size: 80px;
+        text-align: center;
+
+    }
+    #mtext p{
+        font-size: 40px;
+    }
+    #loginbox h2{
+        text-align: center;
+        font-size: 60px;
+        margin-top: -75px;
+        color: beige;
+    }
+  </style>
+  
+</head>
+<body>
+  <div id="main">
+<div id="mtext" ><h2>Movie App</h2>
+<br>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, reiciendis exercitationem. Id magni sed exercitationem. Atque illo laudantium iure sit ex dolor. Dicta blanditiis nisi officia, provident ullam vitae magni. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla amet possimus nisi eum fuga distinctio, ullam consequuntur? Nihil, ab soluta illo placeat architecto quis veritatis officia. Alias placeat sapiente fuga!</p></div>
+    
+      <div id="loginbox">
+        <h2>LOGIN</h2>
+        <form action="/login" method="post">
+          <input type="text" id="username" name="username" placeholder="Enter Username">
+          <input type="text" id="password" name="password" placeholder="Enter Password">
+          <input type="submit"  id="login" value="Log-In">
+
+        </form>
+
+      <a href="/forgotpassword" id="fp">Forgotten password?</a>
+      <hr>
+      <div id="createaccount">Create New Account</div>
+      </div>
+<div id="register">
+  
+<div id="regmodel">
+  <h2  id="sign">Sign Up</h2> <br>
+
+  <h3 id="text">It's quick and easy.</h3>
+  <i id="cross" class="ri-close-line"></i>
+  <hr id="signupline">
+  <form action="/register" id="re" method="post">
+    <input type="text" id="fname" name="fname"  placeholder="First name">
+    <input type="text" id="sname" name="sname"  placeholder="Last name">
+    <input type="text" id="uname" name="username" placeholder="Username">
+    <input type="password" id="pswd" name="password" placeholder="Password">
+    <h6 id="dobs" >Date of birth</h6>
+    <input type="date" name="dob" id="dob">
+   <p id="tc">People who use our service may have uploaded your contact information to Facebook. Learn more.<br>
+    <br>
+
+    By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.
+    
+    </p>
+    <button id="sigup">Sign Up</button>
+    
+
+  </form>
+</div>
+  
+</div>
+
+  </div>
+</body>
+<script>
+  var account= document.querySelector("#createaccount");
+  var register= document.querySelector("#register");
+  var cross= document.querySelector("#cross");
+  account.addEventListener("click",function(){
+  register.style.display="initial";
+ })
+ cross.addEventListener("click",function(){
+  register.style.display="none";
+ })
+
+</script>
+</html>

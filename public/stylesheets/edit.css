@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(44, 43, 43);
+  }
+  #main{
+    height:100%;
+    width: 100%;
+    /* background-color: aqua; */
+  
+  }
+  
+  #nav{
+    height: 13vh;
+    width: 100%;
+    background-color:rgb(44, 43, 43);
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  #logo{
+    height: 15vh;
+    width: 40vh;
+    /* padding: ; */
+    background-size: cover;
+    background-image: url("../images/logo.png");
+  }
+  #nav a{
+    font-size: 60px;
+    text-decoration: none;
+    color: white;
+  
+  }
+  #search{
+    width: 40vw;
+    height: 8vh;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 3px;
+  }
+#film{
+    height: 70vh;
+    width: 70vw;
+    position: absolute;
+    padding: 20px;
+    border-radius: 20px;
+    top:24%;
+    left: 19%;
+     background-color: grey;
+}
+#film h1{
+    font-size: 80px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#crud{
+    height: 90%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#photo{
+    height: 90%;
+    width: 40%;
+    background-color: blueviolet;
+}
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#text{
+    height: 90%;
+    width:35%;
+    background-color: rgb(235, 230, 230);
+    padding: 30px ;
+    font-size: 30px;
+    line-height: 40px;
+
+}
+#text h4{
+  font-size: 60px;
+  text-align: center;
+
+}
+.view{
+    height: 4vh;
+    width: 15vh;
+    background-color: green;
+    border-radius: 5px;
+    font-size: 35px;
+    margin-left: 36%;
+    position: absolute;
+  }
+  #delete{
+ left:45%;
+  }
+  #btn{
+    
+    position: relative;
+    top:-1%;
+    right:10%;
+    width: 20vw;
+
+  }
+
+
+
+  #createpost{
+    height: 90%;
+    width: 25vw;
+    background-color: rgb(69, 66, 66);
+    /* position: relative; */
+    left:30%;
+    /* border-radius: 20px; */
+    padding: 40px ;
+    top:10%;
+}
+#createpost h2{
+    font-size: 80px;
+    text-align: center;
+}
+input{
+    height: 6vh;
+    width: 18vw;
+    /* margin-left: 2vh; */
+    border-radius: 10px;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 2vh;
+}
+#file{
+    height:5vh;
+    width: 19vh;
+}
+#submit{
+    height: 7vh;
+    width: 8vw;
+    margin-left: 10vh;
+    background-color: green;
+    border-radius: 10px;
+}
